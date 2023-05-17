@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /images/office.jpg</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8000/images/office.jpg</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>django_newsapp.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                
+                [name='news-home']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                contact-us
+                [name='contact-us']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                feedback
+                [name='Feedback']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                forget
+                [name='forget']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                login/
+                [name='login']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                logout/
+                [name='logout']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                sports
+                [name='sports']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                technology
+                [name='technology']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                health
+                [name='health']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                science
+                [name='science']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                business
+                [name='business']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                AdminU
+                [name='AdminU']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                handle_question
+                [name='handle_question']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                question_page
+                [name='question_page']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                plot
+                [name='plot_fx']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ploty
+                [name='plot_2y']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ploty200
+                [name='ploty200']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                xploty200
+                [name='excel_ploty200']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                show_fx_news
+                [name='show_fx_news']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                fx_day_news
+                [name='fx_day_news']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                entertainment
+                [name='entertainment']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                register
+                [name='register']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                serviceworker.js
+                [name='serviceworker.js']
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                webpush
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                send_push
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                webpush/
+                
+            
+          </li>
+        
+          <li>
+            
+                
+                
+            
+                ^static/(?P&lt;path&gt;.*)$
+                
+            
+          </li>
+        
+          <li>
+            
+                outdoor/
+                
+            
+          </li>
+        
+          <li>
+            
+                api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>images/office.jpg</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
